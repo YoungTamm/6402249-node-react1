@@ -17,4 +17,6 @@ COPY . .
 RUN npm run build
 
 # Run the app
-CMD ["npx", "serve", "dist"]
+
+CMD [ "node", "index.js" ]
+
